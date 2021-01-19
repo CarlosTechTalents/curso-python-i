@@ -1,0 +1,20 @@
+segundo,valido,tipoPremio
+1,True,estandar
+3,True,estandar
+6,True,estandar
+8,True,estandar
+12,True,primer premio
+16,True,estandar
+17,True,estandar
+21,False,estandar
+27,True,estandar
+30,True,estandar
+33,True,estandar
+35,True,tercer premio
+38,True,estandar
+41,False,estandar
+42,True,estandar
+49,True,segundo premio
+52,True,estandar
+55,True,estandar
+59,True,estandar
