@@ -48,10 +48,8 @@ print("Fin del bucle For")
 # Función sin parámetros #
 ##########################
 
-
 def saludo():
     print("¡Saludos a secas!")
-
 
 saludo()
 
@@ -59,10 +57,8 @@ saludo()
 # Función con parámetros #
 ##########################
 
-
 def saludoNombre(nombreParametro):
     print("¡Saludos " + nombreParametro + " !")
-
 
 saludoNombre("tu nombre")
 saludoNombre(nombre)
@@ -70,7 +66,6 @@ saludoNombre(nombre)
 ######################################
 # Función con retorno sin parámetros #
 ######################################
-
 
 def inputEdad():
     return input("¿Cuantos años tienes?: ")
@@ -83,10 +78,8 @@ print("Tienes : " + str(edad) + " años")
 # Función con retorno con parámetros #
 ######################################
 
-
 def anoNacimiento(edadParametro):
     return 2020 - edadParametro
-
 
 print("Naciste en " + str(anoNacimiento(edad)))
 
