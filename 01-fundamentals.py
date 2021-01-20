@@ -1,6 +1,29 @@
+#########################################
+# Preparación del entorno de desarrollo #
+#########################################
+
+# Descargar el interprete de Python de https://www.python.org/downloads/
+# Instalar marcando el check Add Python to PATH
+
+# Descargar Visual Studio Code de https://code.visualstudio.com/download
+# Instalar Visual Studio Code
+# Instalar la extension Python extension for Visual Studio Code del desarrollador Microsoft
+
+# Crear la carpeta del proyecto
+# Abrir la carpeta del proyecto
+# Crear un archivo main.py
+# Crear un hola mundo con print("Hola mundo")
+# Ejecutamos con el botón derecho sobre el código con la opción Run Python File in Terminal
+
 #############
 # Variables #
 #############
+
+# Son espacios reservados.
+# Se componen de un nombre y un valor.
+# El valor varia a lo largo de la ejecución del programa.
+# El nombre de la variable se escribe en minúsculas.
+# Tipos de variables: String: texto entre comillas, Integer: número entero, Boolean: True o False, Float: número decimal con un punto.
 
 nombre = "Carlos"
 ataque = 11
@@ -48,8 +71,10 @@ print("Fin del bucle For")
 # Función sin parámetros #
 ##########################
 
+
 def saludo():
     print("¡Saludos a secas!")
+
 
 saludo()
 
@@ -57,8 +82,10 @@ saludo()
 # Función con parámetros #
 ##########################
 
+
 def saludoNombre(nombreParametro):
     print("¡Saludos " + nombreParametro + " !")
+
 
 saludoNombre("tu nombre")
 saludoNombre(nombre)
@@ -66,6 +93,7 @@ saludoNombre(nombre)
 ######################################
 # Función con retorno sin parámetros #
 ######################################
+
 
 def inputEdad():
     return input("¿Cuantos años tienes?: ")
@@ -78,8 +106,10 @@ print("Tienes : " + str(edad) + " años")
 # Función con retorno con parámetros #
 ######################################
 
+
 def anoNacimiento(edadParametro):
     return 2020 - edadParametro
+
 
 print("Naciste en " + str(anoNacimiento(edad)))
 
